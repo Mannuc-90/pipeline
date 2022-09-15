@@ -9,7 +9,11 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
-	mavenCentral()
+	maven {
+		//url "https://repo.maven.apache.org/maven2/"
+		//url property('mvnUrl')
+		url {mvnUrl}
+	}
 }
 
 dependencies {
