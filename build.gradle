@@ -12,7 +12,7 @@ repositories {
 	maven {
 		//url "https://repo.maven.apache.org/maven2/"
 		//url property('mvnUrl')
-		url {mvnUrl}
+		url ${mvnUrl}
 	}
 }
 
